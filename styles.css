@@ -13,7 +13,7 @@ header, footer {
 
 /* Class selector */
 .site-title {
-    color: blue;
+    color: rgb(212, 89, 13);
 }
 
 /* Id selector */
@@ -46,5 +46,5 @@ nav ul {
 
  a:hover,
  a:focus {
-    background-color: lightgreen; /* Change background on hover or focus */
+    background-color: rgb(247, 204, 17); /* Change background on hover or focus */
 }
