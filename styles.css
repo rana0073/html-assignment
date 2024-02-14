@@ -1,0 +1,50 @@
+/* styles.css */
+
+/* Inheritance */
+body {
+    font-family: Arial, sans-serif;
+    font-size: 18px;
+}
+
+/* Select multiple elements */
+header, footer {
+    background-color: lightgray;
+}
+
+/* Class selector */
+.site-title {
+    color: blue;
+}
+
+/* Id selector */
+#my-image {
+    box-shadow: 0 0 2px 1px black;
+}
+
+/* Replace bullets with squares */
+ul {
+    list-style-type: square;
+}
+
+/* Using the nth-child selector */
+li:nth-child(odd) {
+    background-color: #9bca83;
+}
+
+/* Styling the Navigation */
+nav ul {
+    list-style: none; /* Remove bullets from unordered list */
+}
+
+ a {
+    text-decoration: none; /* Remove underline from links */
+    display: inline-block;
+    padding: 5px 10px;
+    background-color: lightblue; /* Add background to links */
+    border: 1px solid #ccc; /* Add border to links */
+}
+
+ a:hover,
+ a:focus {
+    background-color: lightgreen; /* Change background on hover or focus */
+}
